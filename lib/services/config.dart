@@ -1,0 +1,29 @@
+class Config {
+  static String apiUrl = 'https://prezuricle-ai.com/api/v1/';
+  static String webSiteUrl = 'https://prezuricle-ai.com/';
+  static String signUpUrl = 'sign-up';
+  static String signInUrl = 'sign-in';
+  static String forgotPasswordUrl = 'send-reset-code';
+  static String verifyOtpUrl = 'verify-reset-code';
+  static String resetPasswordUrl = 'password-reset';
+  static String getProfileUrl = 'profile';
+  static String changePasswordUrl = 'change-password';
+  static String getBannerUrl = 'banners';
+  static String getCategoryUrl = 'categories';
+  static String getSuggestionsUrl = 'suggestions';
+  static String getFaqUrl = 'faqs';
+  static String getPrivacyUrl = 'privacy';
+  static String getTermsUrl = 'terms';
+  static String getCreditEarnUrl = 'credits?type=earnings';
+  static String getCreditSpendUrl = 'credits?type=costings';
+  static String addCreditUrl = 'credits';
+  static String buyCreditUrl = 'buy-credits';
+  static String subscriptionListUrl = 'plans';
+  static String buySubscriptionUrl = 'subscribes';
+  static String adNetworkUrl = 'adnetworks';
+  static String textHistoryUrl = 'texts';
+  static String textGenerateUrl = 'texts';
+  static String imageGenerateUrl = 'images';
+  static String gatewayListUrl = 'gateways';
+  static String logoutUrl = 'sign-out';
+}
